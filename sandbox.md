@@ -93,17 +93,11 @@ dobj(ראה, סרט)
 Same sentence in CoNLL-U:
 
 ~~~ conllu
-1     דני       _        NOUN    _      _     2      nsubj _ _
-2     ראה       _        VERB    _      _     0      root  _ _
-3     סרט       _        NOUN    _      _     2      dobj  _ _
-~~~
-
-Arabic (CoNLL-U):
-
-~~~ conllu
-1     وَ       _        NOUN    _      _     2      nsubj _ _
-2     لاحَظَ       _        VERB    _      _     0      root  _ _
-3     التَقْرِيرُ       _        NOUN    _      _     2      dobj  _ _
+1	孟子	孟子	NOUN	n,名詞,人,複合的人名	_	2	nsubj	_	SpaceAfter=No
+2	見	見	VERB	v,動詞,行為,動作	_	0	root	_	SpaceAfter=No
+3	梁	梁	NOUN	n,名詞,主体,国名	_	5	nmod	_	SpaceAfter=No
+4	惠	惠	NOUN	n,名詞,人,その他の人名	_	5	compound	_	SpaceAfter=No
+5	王	王	NOUN	n,名詞,人,役割	_	2	obj	_	SpaceAfter=No
 ~~~
 
 ----------
